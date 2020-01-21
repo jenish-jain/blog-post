@@ -24,6 +24,13 @@ class Feeds extends Component {
         caption:
           "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
         imgUrl: "https://picsum.photos/seed/zebraś/500/300?grayscale"
+      },
+      {
+        index: "4",
+        title: "H. Jackson Brown Jr.",
+        caption:
+          "Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover.",
+        imgUrl: "https://picsum.photos/seed/zebraś/500/300?grayscale"
       }
     ]
   };
