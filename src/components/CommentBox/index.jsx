@@ -16,7 +16,7 @@ class CommentBox extends Component {
 
   addNewComment = () => {
     const newComment = { caption: this.state.comment };
-    this.setState({ comment: " " });
+    this.setState({ comment: "" });
     let comments = [...this.state.comments, newComment];
     this.setState({ comments: comments });
     // console.log([...this.state.comments]);
