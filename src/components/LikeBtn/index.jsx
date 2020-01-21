@@ -13,14 +13,17 @@ class LikeBtn extends Component {
   };
 
   render() {
+    const { LikeCount } = this.state;
     return (
-      <div>
+      <div className="btn-box">
         <button className="like-btn" onClick={this.LikeCounter}>
           <AiOutlineLike />
           Like
         </button>
-        {this.state.LikeCount > 0 ? (
-          <span>{this.state.LikeCount} Likes</span>
+        {LikeCount > 0 ? (
+          <span>
+            {LikeCount} {LikeCount > 1 ? "Likes" : "Like"}
+          </span>
         ) : null}
       </div>
     );

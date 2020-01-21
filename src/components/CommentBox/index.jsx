@@ -25,18 +25,19 @@ class CommentBox extends Component {
   render() {
     return (
       <div className="comment-box">
-        <div className="comment-list">
-          {this.state.comments.map(comment => (
-            <Comment content={comment.caption} />
-          ))}
-        </div>
         <div className="new-comment">
           <input
             type="text"
             placeholder="type your comment here"
             onChange={e => this.updateValue(e.target.value)}
           ></input>
-          <button onClick={this.addNewComment}>comment</button>
+          <button onClick={this.addNewComment}>Comment</button>
+        </div>
+        <div> {this.state.comments.length > 0 ? "Comments" : null}</div>
+        <div className="comment-list">
+          {this.state.comments.map(comment => (
+            <Comment content={comment.caption} />
+          ))}
         </div>
       </div>
     );

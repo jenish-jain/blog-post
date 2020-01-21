@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.new-comment > input {
+  border: none;
+  border-bottom: 1px solid grey;
+  margin: 5px;
+  outline: none;
+  height: 25px;
+  width: 80%;
+  /* font-size: 18px; */
+  font-weight: lighter;
+}
+
+.new-comment > input:focus {
+  box-shadow: 1px 3px 6px rgb(221, 220, 220);
+}
+
+.new-comment > button {
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 2px;
+  background-color: rgb(223, 222, 222);
+  border: 1px solid grey;
+}

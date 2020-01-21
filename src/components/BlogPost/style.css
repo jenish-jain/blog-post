@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,900i&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.blogpost {
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  width: 500px;
+  padding: 10px;
+}
+
+.blog-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog-title {
+  font-size: 35px;
+  font-weight: 900;
+  margin: 0 5px;
+}
+
+.blog-image {
+  box-shadow: 0px 5px 8px grey;
+}
+
+.blog-body {
+  text-align: justify;
+  margin: 0 5px;
+}
