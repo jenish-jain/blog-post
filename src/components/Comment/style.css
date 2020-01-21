@@ -1,0 +1,17 @@
+.comment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* height: 80px; */
+  border: 1px solid red;
+  margin: 7px;
+  padding: 5px;
+}
+
+.comment-body {
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 20px;
+  padding: 5px;
+}

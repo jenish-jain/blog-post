@@ -1,0 +1,12 @@
+.like-btn {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 4px;
+  font-size: 20px;
+  color: black;
+  margin: 2px 5px;
+}
+
+.like-btn:active {
+  transform: scale(0.92);
+}
